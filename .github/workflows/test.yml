@@ -11,7 +11,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout Adimi
-              uses: actions/check-out@v4
+              uses: actions/checkout@v4
             - name: Environment Variable Listeleme
               run: printenv
                 
